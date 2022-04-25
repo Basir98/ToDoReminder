@@ -1,0 +1,16 @@
+C:\Users\basir\Documents\Workspace\C#\ToGit\ToDoReminder\ToDoReminder\bin\Debug\netcoreapp3.1\ToDoReminder.exe
+C:\Users\basir\Documents\Workspace\C#\ToGit\ToDoReminder\ToDoReminder\bin\Debug\netcoreapp3.1\ToDoReminder.deps.json
+C:\Users\basir\Documents\Workspace\C#\ToGit\ToDoReminder\ToDoReminder\bin\Debug\netcoreapp3.1\ToDoReminder.runtimeconfig.json
+C:\Users\basir\Documents\Workspace\C#\ToGit\ToDoReminder\ToDoReminder\bin\Debug\netcoreapp3.1\ToDoReminder.runtimeconfig.dev.json
+C:\Users\basir\Documents\Workspace\C#\ToGit\ToDoReminder\ToDoReminder\bin\Debug\netcoreapp3.1\ToDoReminder.dll
+C:\Users\basir\Documents\Workspace\C#\ToGit\ToDoReminder\ToDoReminder\bin\Debug\netcoreapp3.1\ToDoReminder.pdb
+C:\Users\basir\Documents\Workspace\C#\ToGit\ToDoReminder\ToDoReminder\obj\Debug\netcoreapp3.1\ToDoReminder.csproj.AssemblyReference.cache
+C:\Users\basir\Documents\Workspace\C#\ToGit\ToDoReminder\ToDoReminder\obj\Debug\netcoreapp3.1\ToDoReminder.MainForm.resources
+C:\Users\basir\Documents\Workspace\C#\ToGit\ToDoReminder\ToDoReminder\obj\Debug\netcoreapp3.1\ToDoReminder.csproj.GenerateResource.cache
+C:\Users\basir\Documents\Workspace\C#\ToGit\ToDoReminder\ToDoReminder\obj\Debug\netcoreapp3.1\ToDoReminder.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\basir\Documents\Workspace\C#\ToGit\ToDoReminder\ToDoReminder\obj\Debug\netcoreapp3.1\ToDoReminder.AssemblyInfoInputs.cache
+C:\Users\basir\Documents\Workspace\C#\ToGit\ToDoReminder\ToDoReminder\obj\Debug\netcoreapp3.1\ToDoReminder.AssemblyInfo.cs
+C:\Users\basir\Documents\Workspace\C#\ToGit\ToDoReminder\ToDoReminder\obj\Debug\netcoreapp3.1\ToDoReminder.csproj.CoreCompileInputs.cache
+C:\Users\basir\Documents\Workspace\C#\ToGit\ToDoReminder\ToDoReminder\obj\Debug\netcoreapp3.1\ToDoReminder.dll
+C:\Users\basir\Documents\Workspace\C#\ToGit\ToDoReminder\ToDoReminder\obj\Debug\netcoreapp3.1\ToDoReminder.pdb
+C:\Users\basir\Documents\Workspace\C#\ToGit\ToDoReminder\ToDoReminder\obj\Debug\netcoreapp3.1\ToDoReminder.genruntimeconfig.cache
