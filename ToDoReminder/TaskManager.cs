@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using System.Diagnostics;
 
 namespace ToDoReminder
 {
@@ -25,6 +26,26 @@ namespace ToDoReminder
                 ok = false;
 
             return ok;
+        }
+
+        public bool removeThisTask(int position)
+        {
+            if(position != -1)
+            {
+                taskList.RemoveAt(position);
+                return true;
+            }
+            return false;
+        }
+
+        public Task editThisTask(Task thisTask, Task newTask)
+        {
+            //taskList.Find(Task => Task.Description == thisTask.Description).Description= newString;
+            thisTask.Description = newTask.Description;
+            thisTask.DateTime = newTask.DateTime;
+            thisTask.Priority = newTask.Priority;
+
+            return new Task(newTask.DateTime, newTask.Description, newTask.Priority);
         }
 
         public List<Task> getList()

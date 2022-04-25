@@ -54,6 +54,7 @@ namespace ToDoReminder
                 taskManager.AddNewTask(task);
 
                 updateGUI();
+                tbToDo.Clear();
             }
         }
 
@@ -118,7 +119,7 @@ namespace ToDoReminder
         {
             OpenFileDialog openedFile = new OpenFileDialog();
 
-            if (openedFile.ShowDialog() == System.Windows.Forms.DialogResult.OK)
+            if (openedFile.ShowDialog() == DialogResult.OK)
             {
                 string filePath = openedFile.FileName;
 
@@ -130,6 +131,8 @@ namespace ToDoReminder
                 {
                     lbTodo.Items.Add(line);
                 }
+                btnDelete.Enabled = false;
+                btnChange.Enabled = false;
             }
         }
 
@@ -152,16 +155,44 @@ namespace ToDoReminder
             {
                 lbTodo.Items.Add(taskList[i]);
             }
+            btnDelete.Enabled = true;
+            btnChange.Enabled = true;
         }
 
         private void btnDelete_Click(object sender, EventArgs e)
         {
-
+            if (lbTodo.SelectedIndex == -1)
+            {
+                MessageBox.Show("Please select an Item first!");
+            }
+            else
+            {
+                if (MessageBox.Show("Are you sure you want to delete this task", "Delete task", MessageBoxButtons.OKCancel) == DialogResult.OK)
+                {
+                    taskManager.removeThisTask(lbTodo.SelectedIndex);
+                    updateGUI();
+                }
+            }
         }
 
         private void btnChange_Click(object sender, EventArgs e)
         {
+            if (lbTodo.SelectedIndex == -1)
+            {
+                MessageBox.Show("Please select an Item first!");
+            }
+            else
+            {
+                Task thisTask = taskManager.getList().ElementAt(lbTodo.SelectedIndex);
 
+                string priority = comboBox.SelectedItem.ToString();
+
+                Task newTask = new Task(dateTimePicker.Value, tbToDo.Text, (PriorityType)Enum.Parse(typeof(PriorityType), priority));
+
+                taskManager.editThisTask(thisTask, newTask);
+                updateGUI();
+                tbToDo.Clear();
+            }
         }
     }
 }
